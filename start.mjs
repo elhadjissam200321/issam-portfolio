@@ -6,16 +6,13 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 (async () => {
-  // Load TanStack Server handler
   const serverApp = await import('./dist/server/server.js');
   const handleRequest = serverApp.default.fetch;
 
   const app = express();
 
-  // Serve static assets from TanStack client build
   app.use(express.static(join(__dirname, 'dist', 'client')));
 
-  // Pass all other requests to TanStack Start SSR handler
   app.use(createServerAdapter(handleRequest));
 
   const port = process.env.PORT || 3000;
