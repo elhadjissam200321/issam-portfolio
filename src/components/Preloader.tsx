@@ -55,7 +55,7 @@ export function Preloader() {
         <span className="h-2 w-2 rounded-full bg-background inline-block" aria-hidden="true" />
         <span
           key={index}
-          className="text-5xl md:text-7xl font-medium tracking-tight animate-fade-in"
+          className="text-5xl md:text-7xl font-medium tracking-tight animate-in fade-in duration-150"
         >
           {greetings[index]}
         </span>
