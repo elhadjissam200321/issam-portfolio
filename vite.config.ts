@@ -7,7 +7,11 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 export default defineConfig({
   plugins: [
     TanStackRouterVite(),
-    tanstackStart(),
+    tanstackStart({
+      server: {
+        preset: 'node-server'
+      }
+    }),
     tailwindcss(),
     tsConfigPaths(),
   ],
