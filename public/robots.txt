@@ -1,0 +1,5 @@
+# robots.txt for issamdev.com
+User-agent: *
+Allow: /
+
+Sitemap: https://issamdev.com/sitemap.xml

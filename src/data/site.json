@@ -1,0 +1,95 @@
+{
+  "name": "Issam Elhadj",
+  "shortName": "Issam",
+  "siteName": "issamdev",
+  "siteUrl": "https://issamdev.com",
+  "email": "hello@issamdev.com",
+  "tagline": "Freelance Designer & Developer",
+  "description": "Portfolio of Issam Elhadj — freelance designer and developer specializing in web design, React, and interactive experiences.",
+  "location": "Earth",
+  "locationLabel": "Earth · Working globally",
+
+  "hero": {
+    "subtitle": ["Freelance", "Designer & Developer"]
+  },
+
+  "about": {
+    "headline": "I design and build digital products that feel calm, fast, and considered.",
+    "description": "Learn about Issam Elhadj — freelance designer and developer specializing in web design, React, TypeScript, and interactive digital experiences.",
+    "bio": [
+      "I'm a freelance designer and developer working with founders, studios, and brands to ship websites and digital products that punch above their weight.",
+      "For the last six years I've focused on the intersection of editorial design, motion, and front-end engineering — the kind of details that turn a good site into a memorable one.",
+      "Available for freelance projects, art direction, and the occasional speaking gig."
+    ],
+    "skills": [
+      { "category": "Design", "items": ["Art Direction", "Brand Systems", "Web Design"] },
+      { "category": "Build", "items": ["React / TypeScript", "Webflow", "Motion / GSAP"] },
+      { "category": "Tools", "items": ["Figma", "Framer", "Cursor"] }
+    ]
+  },
+
+  "contact": {
+    "description": "Get in touch with Issam Elhadj for freelance web design and development projects, collaborations, or just to say hello."
+  },
+
+  "work": {
+    "description": "Selected work and case studies by Issam Elhadj — freelance designer and developer."
+  },
+
+  "socials": [
+    { "label": "Instagram", "href": "#" },
+    { "label": "Twitter / X", "href": "#" },
+    { "label": "LinkedIn", "href": "#" }
+  ],
+
+  "projects": [
+    {
+      "slug": "the-damai",
+      "title": "The Damai",
+      "category": "Design & Development",
+      "year": "2024",
+      "imageFile": "work-damai.jpg",
+      "client": "The Damai Resort",
+      "role": "Design & Build",
+      "description": "A quiet, editorial site for a boutique resort. Calm typography, slow transitions, and tropical photography drive the mood.",
+      "services": ["Art Direction", "Web Design", "Webflow Development", "CMS"],
+      "url": "https://thedamai.com"
+    },
+    {
+      "slug": "twice",
+      "title": "TWICE",
+      "category": "Interaction & Development",
+      "year": "2024",
+      "imageFile": "work-twice.jpg",
+      "client": "TWICE Agency",
+      "role": "Interaction & Front-end",
+      "description": "A bold storytelling site for a creative agency. Heavy type, cinematic media, and tactile micro-interactions.",
+      "services": ["Interaction Design", "Front-end", "Motion"],
+      "url": "https://twice.agency"
+    },
+    {
+      "slug": "aurora",
+      "title": "Aurora",
+      "category": "E-commerce & Branding",
+      "year": "2023",
+      "imageFile": "work-aurora.jpg",
+      "client": "Aurora Footwear",
+      "role": "Design & Branding",
+      "description": "An e-commerce experience that puts the product first. Soft palette, large product imagery, fast checkout.",
+      "services": ["Branding", "E-commerce", "Shopify"],
+      "url": "https://aurorafootwear.com"
+    },
+    {
+      "slug": "northwind",
+      "title": "Northwind",
+      "category": "SaaS & Product Design",
+      "year": "2023",
+      "imageFile": "work-northwind.jpg",
+      "client": "Northwind Analytics",
+      "role": "Product Design",
+      "description": "Dashboard and product design for an analytics platform. Dense data, clear hierarchy, and a calm dark UI.",
+      "services": ["Product Design", "Design System", "Prototyping"],
+      "url": "https://northwind.app"
+    }
+  ]
+}
